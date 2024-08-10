@@ -1,11 +1,14 @@
 import Navbar from "./components/Navbar";
-import Topsection from "./segments/Topsection";
+import Herosection from "./segments/Herosection";
+
+import Clientsection from "./segments/Clientsection";
 
 export default function App() {
   return (
     <>
     <Navbar/>
-    <Topsection></Topsection>
+    <Herosection></Herosection>
+    <Clientsection></Clientsection>
     </>
   )
 }
