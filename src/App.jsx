@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Herosection from "./segments/Herosection";
-
+import Aboutsection from "./segments/Aboutsection";
 import Clientsection from "./segments/Clientsection";
 
 export default function App() {
@@ -8,6 +8,7 @@ export default function App() {
     <>
     <Navbar/>
     <Herosection></Herosection>
+    <Aboutsection></Aboutsection>
     <Clientsection></Clientsection>
     </>
   )
