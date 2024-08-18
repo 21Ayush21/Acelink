@@ -3,7 +3,7 @@ import image from "../assets/logo-placeholder.png";
 
 const Aboutsection = () => {
   return (
-    <section className="mx-auto bg-background-linear-gradient px-6 py-4">
+    <section className="mx-auto bg-background-linear-gradient px-6 py-20">
       <div className="rounded-lg bg-[#01031f]">
         <div className="flex flex-col md:flex-row p-6">
           <img
@@ -17,7 +17,10 @@ const Aboutsection = () => {
                 <span className="bg-gradient-to-r from-pink-400 to-pink-700 text-transparent bg-clip-text">
                   About
                 </span>{" "}
-                the Company
+                the 
+                <span className="ml-2 bg-gradient-to-r from-indigo-400 to-indigo-700 text-transparent bg-clip-text">
+                  Company
+                </span>
               </h1>
               <p className="text-gray-300 font-semibold text-xl mt-4 py-6">
                 AceLink Software Solutions specializes in crafting custom AI
