@@ -18,7 +18,7 @@ const Navbar = () => {
         );
       })}
       </div>
-      <button className="text-white bg-transparent border-2 bg-white rounded-full px-2">Contact Us</button>
+      <button className="text-white bg-transparent border-2 rounded-full px-2">Contact Us</button>
     </header>
   );
 };

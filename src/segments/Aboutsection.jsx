@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import image from "../assets/logo-placeholder.png";
+import { motion } from "framer-motion";
 
 const Aboutsection = () => {
   return (
-    <section className="mx-auto bg-background-linear-gradient px-6 py-20">
+    <section className="mx-auto px-6 py-20 bg-background-linear-gradient">
       <div className="rounded-lg bg-[#01031f]">
         <div className="flex flex-col md:flex-row p-6">
           <img
@@ -13,22 +14,58 @@ const Aboutsection = () => {
           />
           <div className="ml-4 flex flex-col">
             <div>
-              <h1 className="font-bold text-white text-3xl">
-                <span className="bg-gradient-to-r from-pink-400 to-pink-700 text-transparent bg-clip-text">
-                  About
-                </span>{" "}
-                the 
-                <span className="ml-2 bg-gradient-to-r from-indigo-400 to-indigo-700 text-transparent bg-clip-text">
-                  Company
-                </span>
+              <h1 className="font-bold text-white text-3xl mb-4">
+                <motion.span
+                  className="ml-2 text-transparent bg-clip-text"
+                  initial={{
+                    backgroundImage:
+                      "linear-gradient(0deg, rgba(238,119,82,1) 18%, rgba(231,60,126,1) 42%, rgba(35,166,213,1) 68%, rgba(35,213,171,1) 86%)",
+                  }}
+                  animate={{
+                    backgroundImage:
+                      "linear-gradient(360deg, rgba(238,119,82,1) 18%, rgba(231,60,126,1) 42%, rgba(35,166,213,1) 68%, rgba(35,213,171,1) 86%)",
+                  }}
+                  transition={{
+                    duration: 5,
+                    ease: "linear",
+                    repeat: Infinity,
+                    repeatType: "loop",
+                  }}
+                >
+                  About the Company
+                </motion.span>
               </h1>
-              <p className="text-gray-300 font-semibold text-xl mt-4 py-6">
+              <motion.span
+                className=" font-semibold text-xl py-6 bg-clip-text text-transparent"
+                initial={{
+                  backgroundImage:
+                    "linear-gradient(90deg, rgba(238,119,82,1) 18%, rgba(231,60,126,1) 42%, rgba(35,166,213,1) 68%, rgba(35,213,171,1) 86%)",
+                  backgroundPosition: "0% 50%",
+                }}
+                animate={{
+                  backgroundPosition: [
+                    "0% 50%",
+                    "100% 50%",
+                    "0% 50%", 
+                  ],
+                }}
+                transition={{
+                  duration: 5,
+                  ease: "linear",
+                  repeat: Infinity,
+                  repeatType: "loop",
+                }}
+                style={{
+                  backgroundSize: "200% 200%",
+                  WebkitBackgroundClip: "text",
+                }}
+              >
                 AceLink Software Solutions specializes in crafting custom AI
                 assistants, internal tools, websites, and apps for B2B
                 enterprises. We leverage advanced AI to enhance operational
                 efficiency and improve customer engagement, helping businesses
                 excel in the digital landscape
-              </p>
+              </motion.span>
             </div>
           </div>
         </div>

@@ -39,16 +39,8 @@ const Cards = () => {
             justify-center flex-col text-white w-72"
         >
           <div className="flex flex-col space-y-2 w-full">
-            <div className="flex items-center justify-between font-semibold w-full text-xl">
-              Our Plans
-              <div className="text-indigo-400">Most Popular</div>
-            </div>
-
-            <div>
-              <span className="text-center text-xl text-gray-200 font-semibold">
-                $99
-              </span>
-              <span className="text-gray-400">/month</span>
+            <div className="flex items-center justify-center font-semibold w-full text-2xl mb-3">
+              Get a Qoute
             </div>
 
             <div className="text-gray-500">
