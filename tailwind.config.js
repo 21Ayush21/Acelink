@@ -16,7 +16,6 @@ export default {
       },
       backgroundImage: {
         'background-linear-gradient': 'linear-gradient(120deg, rgba(10,11,27,1) 0%, rgba(7,7,17,1) 69%)',
-        'noise': 'linear-gradient(20deg, rebeccapurple, transparent), url(https://grainy-gradients.vercel.app/noise.svg)',
         'navbar-background': 'linear-gradient(90deg, rgba(192,132,252,1) 0%, rgba(79,70,229,1) 69%)',
         'about-background':'linear-gradient(-45deg, rgba(238,119,82,1) 18%, rgba(231,60,126,1) 42%, rgba(35,166,213,1) 68%, rgba(35,213,171,1) 86%);'
       },
@@ -74,6 +73,9 @@ export default {
         gradientChange: 'gradientChange 15s ease infinite'
       },
 
+      fontSize: {
+        '10xl': '10rem', 
+      },
 
     },
   },

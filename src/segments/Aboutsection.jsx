@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import image from "../assets/logo-placeholder.png";
+import image from "../assets/Acelinklogo.png";
 import { motion } from "framer-motion";
 
 const Aboutsection = () => {
   return (
-    <section className="mx-auto px-6 py-20 bg-background-linear-gradient">
+    <motion.section
+      className="mx-auto px-6 py-20 bg-background-linear-gradient">
       <div className="rounded-lg bg-[#01031f]">
         <div className="flex flex-col md:flex-row p-6">
           <img
@@ -43,11 +43,7 @@ const Aboutsection = () => {
                   backgroundPosition: "0% 50%",
                 }}
                 animate={{
-                  backgroundPosition: [
-                    "0% 50%",
-                    "100% 50%",
-                    "0% 50%", 
-                  ],
+                  backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
                 }}
                 transition={{
                   duration: 5,
@@ -70,7 +66,7 @@ const Aboutsection = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

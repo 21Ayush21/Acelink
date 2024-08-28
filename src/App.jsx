@@ -10,9 +10,9 @@ export default function App() {
     <>
     <Navbar/>
     <Herosection></Herosection>
+    <FeatureSection></FeatureSection>
     <Aboutsection></Aboutsection>
     <Clientsection></Clientsection>
-    <FeatureSection></FeatureSection>
     </>
   )
 }
