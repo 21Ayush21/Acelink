@@ -3,6 +3,8 @@ import Herosection from "./segments/Herosection";
 import Aboutsection from "./segments/Aboutsection";
 import Clientsection from "./segments/Clientsection";
 import FeatureSection from "./segments/FeatureSection";
+import Footer from "./components/Footer";
+import Chat from "./components/Chat";
 
 
 export default function App() {
@@ -13,6 +15,8 @@ export default function App() {
     <FeatureSection></FeatureSection>
     <Aboutsection></Aboutsection>
     <Clientsection></Clientsection>
+    <Footer></Footer>
+    <Chat></Chat>
     </>
   )
 }
