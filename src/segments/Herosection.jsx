@@ -3,7 +3,7 @@ import Cards from "../components/Cards";
 
 const Herosection = () => {
   return (
-    <section className="bg-background-linear-gradient grid w-full md:min-h-screen grid-cols-1 lg:grid-cols-2 max-h-fit place-items-center px-10 md:py-32 gap-10">
+    <section className="bg-background-linear-gradient grid w-full md:min-h-screen grid-cols-1 lg:grid-cols-2 max-h-fit place-items-center px-10 md:py-32 gap-10 ">
       <div className="text-start w-full">
         <main className="font-bold text-3xl flex flex-col sm:ml-10 ml-7 mt-5">
           <h1 className="font-bold xl:text-10xl animate-colorChange text-6xl -ml-3 md:-ml-0">
@@ -22,7 +22,7 @@ const Herosection = () => {
           </div>
         </main>
       </div>
-      <div className="w-[680px] h-[376px]">
+      <div className="">
         <Cards></Cards>
       </div>
     </section>
