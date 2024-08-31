@@ -10,11 +10,13 @@ const Herosection = () => {
             Acelink
           </h1>
 
-          <div className="flex flex-col mt-4 text-white text-4xl space-y-3">
-            <h1 className="md:">Linking</h1>
-            <h1 className="bg-gradient-to-r from-indigo-400 to-indigo-600 bg-clip-text text-transparent">
-              Intelligent Software
-            </h1>
+          <div className="flex flex-col mt-4 text-white text-4xl space-y-4 ">
+            <div className="md:flex md:flex-row">
+              <h1 className="mr-4">Linking</h1>
+              <h1 className="bg-gradient-to-r from-indigo-400 to-indigo-600 bg-clip-text text-transparent">
+                Intelligent Software
+              </h1>
+            </div>
             <h1>To</h1>
             <h1 className="bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent">
               Business Excellence

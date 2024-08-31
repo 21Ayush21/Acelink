@@ -53,6 +53,30 @@ const Chat = () => {
           </svg>
         )}
       </motion.div>
+
+      {isRotated && (
+        <motion.div
+          className="bg-white p-4 rounded-lg shadow-lg w-64 h-64 absolute bottom-20 right-0"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: isRotated ? 1 : 0, y: isRotated ? 0 : 20 }}
+          transition={{ duration: 0.5 }}
+          style={{ pointerEvents: isRotated ? "auto" : "none" }}
+        >
+          <div className="h-full flex flex-col justify-between">
+            <div className="overflow-auto">
+              <p className="text-sm text-gray-600">Chat message history...</p>
+            </div>
+            <div className="flex items-center border-t pt-2">
+              <input
+                type="text"
+                placeholder="Type a message..."
+                className="flex-1 border rounded-lg px-2 py-1 text-sm"
+              />
+              <button className="ml-2 text-blue-500">Send</button>
+            </div>
+          </div>
+        </motion.div>
+      )}
     </div>
   );
 };
