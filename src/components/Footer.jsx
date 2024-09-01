@@ -21,15 +21,15 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-col gap-2 text-white'>
-            <h3 className='font-bold text-2xl'>Platforms</h3>
+            <h3 className='font-bold text-2xl'>Privacy Policy</h3>
             <div>
-                <a href="#" className='opacity-60 hover:opacity-100'>Mobile</a>
+                <a href="#" className='opacity-60 hover:opacity-100'>Terms of service </a>
             </div>
             <div>
-                <a href="#" className='opacity-60 hover:opacity-100'>Web</a>
+                <a href="#" className='opacity-60 hover:opacity-100'>Policy</a>
             </div>
             <div>
-                <a href="#" className='opacity-60 hover:opacity-100'>Desktop</a>
+                <a href="#" className='opacity-60 hover:opacity-100'></a>
             </div>
         </div>
 

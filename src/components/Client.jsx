@@ -1,12 +1,34 @@
-import React from 'react'
+import React from "react";
+import image from "../assets/Acelinklogo.png";
 
 const Client = () => {
   return (
-    <div className='flex items-center gap-1 text-white text-3xl mt-14'>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-dollar-sign"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg></span>
-        <h3>Clients</h3>
-    </div>
-  )
-}
+    <div className="relative group">
+      <div
+        className="absolute inset-0 bg-[linear-gradient(-45deg,_rgba(238,119,82,1)_18%,_rgba(231,60,126,1)_42%,_rgba(35,166,213,1)_68%,_rgba(35,213,171,1)_86%)] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"
+        
+      ></div>
+      <div className="rounded-lg bg-[#01031f] shadow-sm relative">
+        <div className="flex flex-col items-center p-3">
+          <div className="flex flex-row items-center justify-start w-full">
+            <div className="h-16 w-16 rounded-full overflow-hidden">
+              <img src={image} alt="client image" />
+            </div>
 
-export default Client
+            <div className="flex flex-col text-white ml-3">
+              <h3 className="font-semibold text-lg">Client Name</h3>
+              <p className="opacity-60 text-sm">Client Details</p>
+            </div>
+          </div>
+          <div className="text-white mt-4 opacity-80 px-3">
+            Qoute Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Molestiae consectetur ipsum dolores laudantium beatae, assumenda
+            quae asperiores minus ab eius!
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Client;

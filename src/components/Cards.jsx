@@ -2,9 +2,9 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div className="hidden lg:flex flex-row flex-wrap relative lg:w-[680px] lg:h-[376px]">
-      <div className="relative group my-4 -top-11">
-        <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+    <div className="md:flex md:flex-row lg:flex flex-row flex-wrap relative xl:w-[680px] xl:h-[376px] lg:flex-col lg:items-center">
+      <div className="relative group my-4 xl:-top-11 xl:h-[90px] md:h-[90px]">
+        <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt h-full"></div>
         <div
           className=" relative px-7 py-6 bg-black rounded-lg leading-none flex items-center 
             justify-center flex-col text-white"
@@ -18,21 +18,22 @@ const Cards = () => {
         </div>
       </div>
 
-      <div className="relative group my-4 top-11 mx-4 ">
+      <div className="relative group my-4 xl:top-11 mx-4 w-[200px]">
         <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
         <div
           className=" relative px-7 py-6 bg-black rounded-lg leading-none flex items-center 
     justify-center flex-col text-white"
         >
-          <div>
-            <span className="text-center text-xl text-gray-200 font-semibold text-wrap ">
-              Lorem ipsum dolor sit
+          <div className="flex flex-col items-center">
+            <span className="text-center text-xl text-gray-200 font-semibold text-wrap block bg-gradient-to-r from-pink-300 to-pink-600 bg-clip-text text-transparent">
+              Websites and Apps
             </span>
+            <span className="text-xl opacity-60 text-center">Accelerating your business</span>
           </div>
         </div>
       </div>
 
-      <div className="relative group my-4 left-10">
+      <div className="relative group my-4 xl:left-5 ">
         <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
         <div
           className=" relative px-5 py-6 bg-black rounded-lg leading-none flex items-center 
@@ -43,9 +44,8 @@ const Cards = () => {
               Get a Qoute
             </div>
 
-            <div className="text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-              voluptate?
+            <div className="text-gray-500 text-lg leading-none">
+            Need a solution tailored to your needs? We're here to help. Contact us today to get a personalized quote for your project.
             </div>
 
             <div className="flex items-center justify-center">

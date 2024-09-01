@@ -5,15 +5,26 @@ import Clientsection from "./segments/Clientsection";
 import FeatureSection from "./segments/FeatureSection";
 import Footer from "./components/Footer";
 import Chat from "./components/Chat";
+import { useRef } from "react";
 
 
 export default function App() {
+  const aboutRef = useRef(null);
+  const servicesRef = useRef(null);
+
+  const scrollToSection = (section) => {
+    if (section === "About") {
+      aboutRef.current?.scrollIntoView({ behavior: "smooth" });
+    } else if (section === "Services") {
+      servicesRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
-    <Navbar/>
+    <Navbar scrollToSection={scrollToSection}/>
     <Herosection></Herosection>
-    <FeatureSection></FeatureSection>
-    <Aboutsection></Aboutsection>
+    <FeatureSection ref={servicesRef}></FeatureSection>
+    <Aboutsection ref={aboutRef}></Aboutsection>
     <Clientsection></Clientsection>
     <Footer></Footer>
     <Chat></Chat>

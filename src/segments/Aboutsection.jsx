@@ -1,16 +1,18 @@
 import image from "../assets/Acelinklogo.png";
+import { forwardRef } from "react";
 import { motion } from "framer-motion";
 
-const Aboutsection = () => {
+const Aboutsection = forwardRef((props , ref) => {
   return (
     <motion.section
+    ref={ref}
       className="mx-auto px-6 py-20 bg-background-linear-gradient">
       <div className="rounded-lg bg-[#01031f]">
         <div className="flex flex-col md:flex-row p-6">
           <img
             src={image}
             alt="logo"
-            className="w-[300px] object-contain p-6"
+            className="w-[300px] h-[250px] object-contain p-6"
           />
           <div className="ml-4 flex flex-col">
             <div>
@@ -68,6 +70,6 @@ const Aboutsection = () => {
       </div>
     </motion.section>
   );
-};
+});
 
 export default Aboutsection;

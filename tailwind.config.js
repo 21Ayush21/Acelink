@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '3.7rem',
+      },
       colors: {
         powderblue: '#b0e0e6',
         rebeccapurple: '#663399',
