@@ -2,7 +2,7 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div className="md:flex md:flex-row lg:flex flex-row flex-wrap relative xl:w-[680px] xl:h-[376px] lg:flex-col lg:items-center">
+    <div className="hidden md:flex md:flex-row lg:flex flex-row flex-wrap relative xl:w-[680px] xl:h-[376px] lg:flex-col lg:items-center">
       <div className="relative group my-4 xl:-top-11 xl:h-[90px] md:h-[90px]">
         <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt h-full"></div>
         <div

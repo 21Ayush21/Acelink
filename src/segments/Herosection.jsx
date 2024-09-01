@@ -10,7 +10,7 @@ const Herosection = () => {
             Acelink
           </h1>
 
-          <div className="flex flex-col mt-4 text-white text-5xl space-y-4 ">
+          <div className="flex flex-col mt-4 text-white text-4xl space-y-4 sm:text-5xl">
             <div className="">
               <h1 className="xl:ml-12">Linking</h1>
               <h1 className="bg-gradient-to-r from-indigo-400 to-indigo-600 bg-clip-text text-transparent leading-12">
