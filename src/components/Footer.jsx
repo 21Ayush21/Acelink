@@ -3,7 +3,7 @@ import image from "../assets/Acelinklogo.png";
 
 const Footer = () => {
   return (
-    <footer className='grid grid-cols-2 bg-background-linear-gradient gap-y-12 gap-x-8 p-16 md:grid-cols-4 xl:grid-cols-4 '>
+    <footer className='grid grid-cols-2 bg-footer-linear-gradient gap-y-12 gap-x-8 p-16 md:grid-cols-4 xl:grid-cols-4 '>
         <div className='col-span-full xl:col-span-1 md:col-span-1 '>
             <img src={image} alt="company_logo" className='xl:h-[170px]'/>
         </div>

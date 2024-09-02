@@ -38,7 +38,7 @@ const Aboutsection = forwardRef((props , ref) => {
                 </motion.span>
               </h1>
               <motion.span
-                className=" font-semibold text-xl py-6 bg-clip-text text-transparent"
+                className=" font-semibold text-xl py-6 bg-clip-text text-transparent "
                 initial={{
                   backgroundImage:
                     "linear-gradient(90deg, rgba(238,119,82,1) 18%, rgba(231,60,126,1) 42%, rgba(35,166,213,1) 68%, rgba(35,213,171,1) 86%)",
