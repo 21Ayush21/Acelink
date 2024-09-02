@@ -15,7 +15,7 @@ const Navbar = ({ scrollToSection }) => {
 
   const navlinks = ["Home", "About", "Portfolio", "Services"];
   return (
-    <header className="md:flex md:justify-between md:flex-row p-2 cursor-pointer font-mono font-bold text-xl sticky top-0 bg-black w-full z-20">
+    <header className="md:flex md:justify-between md:flex-row p-2 cursor-pointer font-bold text-xl sticky top-0 bg-black w-full z-20 font-inter">
       <div className=" ml-3 text-white text-3xl flex flex-row items-center justify-between">
         <div className=" text-4xl">
           Ace<span className="text-indigo-500">link</span>
