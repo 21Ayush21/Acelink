@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+
+      fontFamily: {
+        ibm: ['"IBM Plex Sans"', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
       lineHeight: {
         'extra-loose': '2.5',
         '12': '3.7rem',

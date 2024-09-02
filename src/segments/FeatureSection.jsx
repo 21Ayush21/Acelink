@@ -11,11 +11,11 @@ const FeatureSection = forwardRef((props , ref) => {
           <div className="rounded-lg bg-[#01031f] shadow-sm relative">
             <div className="flex flex-col items-center">
               <div className="px-4 py-10">
-                <h3 className="text-white text-center text-4xl font-semibold">
+                <h3 className="text-white text-center text-4xl font-semibold font-montserrat">
                   Virtual AI Assistants
                 </h3>
               </div>
-              <div className="text-white opacity-80 px-14 text-justify">
+              <div className="text-white opacity-80 px-14 text-justify font-inter">
               We provide advanced Virtual AI Assistants that streamline your business operations, enhancing productivity by automating routine tasks and offering intelligent, real-time support.
               </div>
               <div>
@@ -34,11 +34,11 @@ const FeatureSection = forwardRef((props , ref) => {
           <div className="rounded-lg bg-[#01031f] shadow-sm relative h-full">
             <div className="flex flex-col items-center">
               <div className="px-4 py-10">
-                <h3 className="text-white text-center text-3xl font-semibold">
+                <h3 className="text-white text-center text-3xl font-semibold font-montserrat">
                 Custom Software
                 </h3>
               </div>
-              <div className="text-white opacity-80 px-14 text-justify">Our Custom Software solutions are tailored to meet the unique needs of your business, offering specialized functionality and flexibility to address specific challenges.</div>
+              <div className="text-white opacity-80 px-14 text-justify font-inter">Our Custom Software solutions are tailored to meet the unique needs of your business, offering specialized functionality and flexibility to address specific challenges.</div>
               <div>
                 <img
                   src={image}
@@ -55,11 +55,11 @@ const FeatureSection = forwardRef((props , ref) => {
           <div className="rounded-lg bg-[#01031f] shadow-sm relative h-full">
             <div className="flex flex-col items-center">
               <div className="px-4 py-10">
-                <h3 className="text-white text-center text-3xl font-semibold">
+                <h3 className="text-white text-center text-3xl font-semibold font-montserrat">
                 Websites / Apps
                 </h3>
               </div>
-              <div className="text-white opacity-80 px-14 text-justify">We create stunning, user-friendly websites and apps that not only capture your brand's essence but also deliver exceptional user experiences.</div>
+              <div className="text-white opacity-80 px-14 text-justify font-inter">We create stunning, user-friendly websites and apps that not only capture your brand's essence but also deliver exceptional user experiences.</div>
               <div>
                 <img
                   src={image}

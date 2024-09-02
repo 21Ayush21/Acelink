@@ -9,9 +9,9 @@ const Cards = () => {
           className=" relative px-7 py-6 bg-black rounded-lg leading-none flex items-center 
             justify-center flex-col text-white"
         >
-          <span className="text-center text-2xl text-gray-200 font-semibold">
+          <span className="text-center text-2xl text-gray-200 font-semibold font-inter">
             Crafting Custom
-            <span className="ml-1 bg-gradient-to-r from-indigo-400 to-indigo-600 bg-clip-text text-transparent font-semibold">
+            <span className="ml-1 bg-gradient-to-r from-indigo-400 to-indigo-600 bg-clip-text text-transparent font-semibold font-inter">
               AI assistants
             </span>
           </span>
@@ -25,10 +25,10 @@ const Cards = () => {
     justify-center flex-col text-white"
         >
           <div className="flex flex-col items-center">
-            <span className="text-center text-xl text-gray-200 font-semibold text-wrap block bg-gradient-to-r from-pink-300 to-pink-600 bg-clip-text text-transparent">
+            <span className="text-center text-xl text-gray-200 font-semibold text-wrap block bg-gradient-to-r from-pink-300 to-pink-600 bg-clip-text text-transparent font-inter">
               Websites and Apps
             </span>
-            <span className="text-xl opacity-60 text-center">Accelerating your business</span>
+            <span className="text-xl opacity-60 text-center font-inter">Accelerating your business</span>
           </div>
         </div>
       </div>
@@ -40,16 +40,16 @@ const Cards = () => {
             justify-center flex-col text-white w-72"
         >
           <div className="flex flex-col space-y-2 w-full">
-            <div className="flex items-center justify-center font-semibold w-full text-2xl mb-3">
+            <div className="flex items-center justify-center font-semibold w-full text-2xl mb-3 font-inter">
               Get a Qoute
             </div>
 
-            <div className="text-gray-500 text-lg leading-none">
+            <div className="text-gray-500 text-lg leading-none font-inter">
             Need a solution tailored to your needs? We're here to help. Contact us today to get a personalized quote for your project.
             </div>
 
             <div className="flex items-center justify-center">
-              <button className="p-4 bg-indigo-700 rounded-lg w-full mt-2 hover:bg-indigo-900">
+              <button className="p-4 bg-indigo-700 rounded-lg w-full mt-2 hover:bg-indigo-900 font-inter font-semibold text-xl">
                 Contact Us
               </button>
             </div>
