@@ -12,12 +12,12 @@ const Herosection = () => {
 
           <div className="flex flex-col mt-4 text-white text-4xl space-y-4 sm:text-5xl">
             <div className="">
-              <h1 className="xl:ml-12">Linking</h1>
+              <h1 className="xl:ml-36">Linking</h1>  {/* just chaned margin */}
               <h1 className="bg-gradient-to-r from-indigo-400 to-indigo-600 bg-clip-text text-transparent leading-12">
                 Intelligent Software
               </h1>
             </div>
-            <h1 className="xl:ml-20">To</h1>
+            <h1 className="xl:ml-44">To</h1>  {/* just changed margin here as well */}
             <h1 className="bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent xl:ml-4">
               Business Excellence
             </h1>
