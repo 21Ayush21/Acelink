@@ -10,6 +10,8 @@ const Navbar = ({ scrollToSection }) => {
   const handleNavClick = (link) => {
     if (link === "About" || link === "Services") {
       scrollToSection(link);
+    } else if (link === "Portfolio"){
+      window.open("" , "_blank")
     }
   };
 

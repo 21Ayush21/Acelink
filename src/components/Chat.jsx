@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import image from "../assets/Acelinklogo.png";
 
 const Chat = () => {
   const [isRotated, setIsRotated] = useState(false);
@@ -63,16 +64,44 @@ const Chat = () => {
           style={{ pointerEvents: isRotated ? "auto" : "none" }}
         >
           <div className="h-full flex flex-col justify-between">
+            <div className="flex flex-row items-center border-b">
+              <div>
+                <img
+                  src={image}
+                  alt="company logo"
+                  className="w-7 h-7 rounded-full"
+                />
+              </div>
+              <div className="font-inter text-sm font-semibold ml-2 flex-1">Max</div>
+              <div className="font-inter text-sm ">-Acelink Ai Assistant</div>
+
+            </div>
             <div className="overflow-auto">
               <p className="text-sm text-gray-600"></p>
             </div>
             <div className="flex items-center border-t pt-2">
               <input
                 type="text"
-                placeholder="Type a message..."
+                placeholder="Start Typing..."
                 className="flex-1 border rounded-lg px-2 py-1 text-sm"
               />
-              <button className="ml-2 text-blue-500">Send</button>
+              <button className="ml-2 text-blue-500">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-send-horizontal"
+                >
+                  <path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z" />
+                  <path d="M6 12h16" />
+                </svg>
+              </button>
             </div>
           </div>
         </motion.div>

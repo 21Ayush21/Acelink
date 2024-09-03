@@ -1,5 +1,8 @@
 import React from "react";
 import image from "../assets/logo-placeholder.png";
+import aiImage from "../assets/virtual_ai_assistant.jpg";
+import customSoftwareImage from "../assets/custom_software.jpg";
+import websiteImage from "../assets/websites_apps.jpg";
 import { forwardRef } from "react";
 
 const FeatureSection = forwardRef((props , ref) => {
@@ -15,14 +18,14 @@ const FeatureSection = forwardRef((props , ref) => {
                   Virtual AI Assistants
                 </h3>
               </div>
-              <div className="text-white opacity-80 px-14 text-justify font-inter">
+              <div className="text-white opacity-80 px-14 font-inter">
               We provide advanced Virtual AI Assistants that streamline your business operations, enhancing productivity by automating routine tasks and offering intelligent, real-time support.
               </div>
               <div>
                 <img
-                  src={image}
+                  src={aiImage}
                   alt=""
-                  className="w-[300px] object-contain p-6"
+                  className="object-contain p-6"
                 />
               </div>
             </div>
@@ -38,12 +41,12 @@ const FeatureSection = forwardRef((props , ref) => {
                 Custom Software
                 </h3>
               </div>
-              <div className="text-white opacity-80 px-14 text-justify font-inter">Our Custom Software solutions are tailored to meet the unique needs of your business, offering specialized functionality and flexibility to address specific challenges.</div>
+              <div className="text-white opacity-80 px-14 font-inter">Our Custom Software solutions are tailored to meet the unique needs of your business, offering specialized functionality and flexibility to address specific challenges.</div>
               <div>
                 <img
-                  src={image}
+                  src={customSoftwareImage}
                   alt=""
-                  className="w-[300px] object-contain p-6"
+                  className="object-contain p-6 mt-3"
                 />
               </div>
             </div>
@@ -59,12 +62,12 @@ const FeatureSection = forwardRef((props , ref) => {
                 Websites / Apps
                 </h3>
               </div>
-              <div className="text-white opacity-80 px-14 text-justify font-inter">We create stunning, user-friendly websites and apps that not only capture your brand's essence but also deliver exceptional user experiences.</div>
+              <div className="text-white opacity-80 px-14 font-inter">We create stunning, user-friendly websites and apps that not only capture your brand's essence but also deliver exceptional user experiences.</div>
               <div>
                 <img
-                  src={image}
+                  src={websiteImage}
                   alt=""
-                  className="w-[300px] object-contain p-6"
+                  className="object-contain p-6"
                 />
               </div>
             </div>
