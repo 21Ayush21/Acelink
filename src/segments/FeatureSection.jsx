@@ -1,8 +1,7 @@
 import React from "react";
-import image from "../assets/logo-placeholder.png";
-import aiImage from "../assets/virtual_ai_assistant.jpg";
-import customSoftwareImage from "../assets/custom_software.jpg";
-import websiteImage from "../assets/websites_apps.jpg";
+import aiImage from "../assets/ai_assistant.jpg";
+import customSoftwareImage from "../assets/custom_softwares.jpg";
+import websiteImage from "../assets/website_apps.jpg";
 import { forwardRef } from "react";
 
 const FeatureSection = forwardRef((props , ref) => {
