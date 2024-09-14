@@ -11,7 +11,7 @@ const Navbar = ({ scrollToSection }) => {
     if (link === "About" || link === "Services") {
       scrollToSection(link);
     } else if (link === "Portfolio"){
-      window.open("" , "_blank")
+      window.open("https://docs.google.com/presentation/d/1F_0REUmPrcR7aiz0uATN900ate_NONTc_hHt7HNgz74/edit?usp=sharing" , "_blank")
     }
   };
 
