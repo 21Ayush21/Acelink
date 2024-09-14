@@ -27,7 +27,7 @@ const Footer = () => {
             >
               <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
             </svg>
-            <a href="#" className="ml-2 text-center">
+            <a href="https://x.com/acelinksoftware" className="ml-2 text-center">
               Twitter
             </a>
           </div>
@@ -50,7 +50,7 @@ const Footer = () => {
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
               <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
             </svg>
-            <a href="#" className=" ml-2">
+            <a href="https://www.instagram.com/acelinksoftware/" className=" ml-2">
               Instagram
             </a>
           </div>
@@ -73,7 +73,7 @@ const Footer = () => {
               <rect width="4" height="12" x="2" y="9" />
               <circle cx="4" cy="4" r="2" />
             </svg>
-            <a href="#" className=" ml-2">
+            <a href="https://linkedin.com/company/acelink-software-solutions/about" className=" ml-2">
               LinkedIn
             </a>
           </div>
@@ -104,7 +104,7 @@ const Footer = () => {
               <path d="M16 13H8" />
               <path d="M16 17H8" />
             </svg>
-            <a href="#" className="ml-2 text-center">
+            <a href="https://docs.google.com/document/d/1b6psaDa1a0q7DzsTKYYDxp8CXJVbOIUa9aE8ZcCE02I/edit?usp=sharing" className="ml-2 text-center">
               Terms of service{" "}
             </a>
           </div>
@@ -129,7 +129,7 @@ const Footer = () => {
               <path d="M16 13H8" />
               <path d="M16 17H8" />
             </svg>
-            <a href="#" className="ml-2 text-center">
+            <a href="https://docs.google.com/document/d/1Wkl92EcA1QOvaHfKyChk1u4qi_3WQktyqhX8uQeqX9o/edit?usp=sharing" className="ml-2 text-center">
               Policy
             </a>
           </div>
