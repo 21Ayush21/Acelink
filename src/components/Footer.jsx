@@ -144,15 +144,15 @@ const Footer = () => {
           Contact Us
         </h3>
         <div>
-          <div className="flex flex-col opacity-60 hover:opacity-100 items-start sm:flex-row">
-            <a href="#" className=" md:text-lg ml-2 sm:text break-all whitespace-nowrap">
+          <div className="flex flex-col opacity-60 hover:opacity-100 items-start sm:flex-row ">
+            <a href="#" className=" md:text-lg  sm:text break-all whitespace-nowrap">
               Email - tristanhancock@acelink.in
             </a>
           </div>
         </div>
         <div>
           <div className="flex flex-col opacity-60 hover:opacity-100 items-start sm:flex-row">
-            <a href="#" className=" md:text-lg ml-2 sm:text-center md:text-start whitespace-nowrap">
+            <a href="#" className=" md:text-lg sm:text-center md:text-start whitespace-nowrap">
               Phone - 9819861904
             </a>
           </div>
