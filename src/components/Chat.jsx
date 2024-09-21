@@ -77,7 +77,7 @@ const Chat = () => {
 
             </div>
             <div className="overflow-auto">
-              <p className="text-sm text-gray-600"></p>
+              <p className="text-sm text-gray-600 text-center"> Max is currently sleeping</p>
             </div>
             <div className="flex items-center border-t pt-2">
               <input
